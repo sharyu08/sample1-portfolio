@@ -1,0 +1,138 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  
+  
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#483b3bea;
+    z-index: 99;
+  }
+  
+  .nav__content {
+    max-width:1200px;
+    margin: auto;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  nav .logo a:hover {
+    color:rgb(237, 183, 96); 
+  }
+  
+  nav .checkbox {
+    display: none;
+  }
+  
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color:rgb(139, 98, 98);
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover {
+    border-top-color:rgb(237, 183, 96);
+    border-bottom-color:rgb(237, 183, 96);
+    color:white; 
+  }
+  /* About Section */
+  .about-section {
+    padding-top: 50px;
+    padding-bottom: 50px; /* Ensures section is below navbar */
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center; /* Aligns items to the top */
+    gap: 2rem;
+}
+
+.about-section img {
+    width: 600px;
+    height: auto;
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: -350px;
+}
+
+ .text-content {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Center-aligns text items */
+    text-align: center;
+}
+
+.about-section a {
+    margin-bottom: 10px; /* Space below the link */
+}
+
+.about-section p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin: 10px 0; /* Space between each paragraph */
+    max-width: 5000px;
+}
+.action__btns {
+  display: flex;
+  gap: 1rem;
+  border-radius: 10px;
+}
+.know-more{
+  background-color:#483b3bea;
+  color: white;
+}
+
+.know-more:hover {
+  background-color: rgb(224, 180, 121);
+  
+}
+.action__btns button {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  padding: 1rem 2rem;
+  outline: none;
+  border: 2px solid rgb(139, 98, 98);
+  border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  margin-left:-650px;
+  flex-direction: column;
+  margin-top:400px;
+}

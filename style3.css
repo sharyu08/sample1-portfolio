@@ -1,0 +1,127 @@
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+
+  
+  
+  nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color:#483b3bea;
+    z-index: 99;
+  }
+  
+  .nav__content {
+    max-width:1200px;
+    margin: auto;
+    padding: 1rem 0rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  nav .logo a {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  nav .logo a:hover {
+    color:rgb(237, 183, 96); 
+  }
+  
+  nav .checkbox {
+    display: none;
+  }
+  
+  nav input {
+    display: none;
+  }
+  nav .checkbox i {
+    font-size: 2rem;
+    color:rgb(139, 98, 98);
+    cursor: pointer;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    list-style: none;
+    transition: left 0.3s;
+  }
+  
+  ul li a {
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  ul li a:hover {
+    border-top-color:rgb(237, 183, 96);
+    border-bottom-color:rgb(237, 183, 96);
+    color:white; 
+  }
+  .projects-section {
+    max-width: 800px; /* Set a max-width if needed */
+    margin: auto;
+    padding: 1rem;
+  }
+  
+  .projects-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  
+  .project {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .project h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #31473A;
+  }
+  
+  .project p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .video-box {
+    width: 95%;
+    height: auto;
+    margin-top: 0.5rem;
+  }
+  
+  .video-box video {
+    width: 95%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  
+  .small-video {
+    width: 80%; 
+    height: 300px;
+    background-color: #ddd; 
+  }
+  
